@@ -1,0 +1,10 @@
+
+.venv/
+venv/
+__pycache__/
+.env
+bot_users.db
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
