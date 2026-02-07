@@ -75,7 +75,7 @@ async def check_live_notifications(bot: Bot):
 
         # 3. Half Time
         if status_text == "HT" and not database.is_goal_notified(match_id, "ht"):
-            events_to_notify.append(("ht", "ht_text"))
+            events_to_notify.append(("ht", "ht_notify_text"))
 
         # 4. Second Half Started
         # Condition: Live, Time > 45, NOT HT, and HT was already notified (or imply it passed)
